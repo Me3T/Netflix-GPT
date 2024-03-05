@@ -48,12 +48,11 @@ export const Login = () => {
               dispatch(
                 addUser({ uid: uid, email: email, displayName: displayName })
               );
-              navigate("/browse");
             })
             .catch((error) => {
               setErrorMessage(error.message);
             });
-          console.log(user);
+
           navigate("/browse");
         })
         .catch((error) => {
@@ -71,8 +70,7 @@ export const Login = () => {
         .then((userCredential) => {
           // Signed In
           const user = userCredential.user;
-          console.log(user);
-          navigate("/browse");
+
           // ...
         })
         .catch((error) => {
