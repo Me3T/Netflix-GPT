@@ -16,8 +16,6 @@ const VideoBackground = ({ movieId }) => {
           trailerVideo?.key +
           "?&autoplay=1&mute=1"
         }
-        frameBorder="0"
-        // allowFullScreen
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       ></iframe>
