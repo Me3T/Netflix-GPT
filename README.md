@@ -1,5 +1,4 @@
 # Netflix GPT
-
 -- create react app
 -- configured tailwind css
 -- Header
@@ -37,9 +36,16 @@
 -- usePopularMovies Custom hook
 -- GPT Search feature
 -- (BONUS) Multiple-language Feature in our App
+-- Get Gemini API key
+-- Gemini API search call
+-- Fetch GeminimovieSuggestions from TMBD
+-- created Gemini Slice added data
+-- Reused Movie List Component to make movie sugggestion container
+-- Memoization
+-- Added .env file to gitignore
+-- Made our Site Responsive
 
 # Features
-
 - Login / Sign up form
   - Sign in / Sign up form
 - Browse (after authentication)
